@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  distDir: 'dist',
   trailingSlash: true,
   reactStrictMode: false,
   experimental: {
