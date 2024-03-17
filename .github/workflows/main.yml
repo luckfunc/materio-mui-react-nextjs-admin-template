@@ -53,6 +53,6 @@ jobs:
           # 连接超时时长  不写默认是30s
           connect_timeout: 10s
           # 要把那个文件部署到服务器上 这里我要部署的是dist下的所有文件。根据实际路径切换。如果是vitePress的话：docs/.vitepress/dist/*
-          local: '.next/server/pages/*'
+          local: '.next/*'
           # 这里要部署到服务器的那个路径 example: /www/wwwroot/${xxx目录下} 以服务器的为准
           remote: ${{ secrets.REMOTE_TARGET }}
