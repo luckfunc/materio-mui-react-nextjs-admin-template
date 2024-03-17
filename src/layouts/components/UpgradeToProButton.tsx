@@ -88,7 +88,8 @@ const BuyNowButton = () => {
                 sx={{ mr: 4 }}
                 target='_blank'
                 variant='contained'
-                href='https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/landing/'
+                // TODO
+                href=''
               >
                 Demo
               </Button>
